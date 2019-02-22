@@ -1,0 +1,19 @@
+doctype html
+html
+  head
+    link(rel='stylesheet', href='css/main.css')
+    title #{title}
+  body
+    div#wrapper
+      div#header
+        h1 #{title}
+      div#creatorFloat
+        p Created by: Jurica Brekalo Štrbić
+      div#main
+        p
+        ul
+          for item, index in result
+            li
+              div.s1='' + index + '. '
+              div.s2= '' + item.name + ' '
+              div.s3='' + item.value

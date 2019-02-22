@@ -1,0 +1,2 @@
+curl --data '{"username":"ismail","password":1233}' -H "Content-Type:application/json"  http
+://localhost:80/sendjsonmultiplayer
